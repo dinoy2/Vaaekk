@@ -1,0 +1,14 @@
+# Using time module for delays
+import time
+
+# Function to print text with a delay between characters
+def print_with_delay(text, delay):
+    for char in text:
+        print(char, end='', flush=True)
+        time.sleep(delay)
+    print()
+
+# Splash screen
+print_with_delay("Welcome to the Game!", 0.1)
+print_with_delay("Get ready to have fun!", 0.1)
+print_with_delay("Let's begin...", 0.2)
