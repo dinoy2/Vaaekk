@@ -1,4 +1,4 @@
-# Using time module for delay
+# Using time module for delay1
 import time
 
 # Function to print text with a delay between characters
